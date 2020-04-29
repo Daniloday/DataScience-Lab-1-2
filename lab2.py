@@ -104,9 +104,9 @@ class StockExample(server.App):
     
 
 def main():
-	# clear()
-	# for i in range(25):
-	# 	createFile(i+1, 1982, 2020)
+	clear()
+	for i in range(25):
+		createFile(i+1, 1982, 2020)
 	app = StockExample()
 	app.launch(port=8080)
 
