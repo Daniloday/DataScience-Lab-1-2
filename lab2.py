@@ -77,7 +77,7 @@ class StockExample(server.App):
 def main():
     filesClass = downloadFiles()
     app = StockExample(filesClass)
-    app.launch(port=8081)
+    app.launch(port=8080)
 
 if __name__ == '__main__':
     main()
